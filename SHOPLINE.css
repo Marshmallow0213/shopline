@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bold{
+    font-weight: bold;
+}
+.header{
+    background-color: #fff;
+    border-top: 5px  solid #ffd500;
+    border-bottom: 5px  solid #ffd500;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.login{
+    margin-bottom: 3px;
+    padding-right: 13.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+.plo{
+    margin-right: 3%;
+}
+.shop-cover{
+    display: flex;
+    padding: 5px 13.5% 5px 0;
+}
+.coverblock{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 0 13.5%;
+    width: 100%;
+    align-items: center;
+}
+.p-button{
+    padding: 0 4%;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #2c3eff;
+    line-height: 48px;
+    white-space:nowrap;
+    text-align: center;
+    cursor: pointer;
+}
+.p-button:hover{
+    background-color: #404065;
+    transition: 0.3s all;
+}
+.nomatter{
+    display: flex;
+}
+.pwifi{
+    font-size: 40px;
+    color:#3D8DD1;
+}
+.pioneer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ph1{
+    font-size: 40px;
+    color: #242323;
+}
+.p{
+    color: #777777;
+}
+.pf{
+    margin-top: 5%;
+}
+.ph1-1{
+    margin-top: 20%;
+}
+.p-14{
+    width: 250px;
+    text-align: center;
+    margin-top: 2%;
+}
+.pioneerblock{
+    display: flex;
+    padding: 5px 13.5% 0 13.5%;
+    justify-content: space-between;
+}
+.pioneerblock .img{
+    margin-top: 5%;
+    height: 500px;
+}
+.total{
+    padding-top: 5%;
+    background: linear-gradient(180deg, #EBF1F8 78.12%, #DBE7F4 91.15%);
+    height: 100VH;
+}
+.empty{
+    padding: 40px;
+    background: linear-gradient(180deg, #F6F9FC 0%, #ECF2F9 47.92%);
+}
+.helpu{
+    background-color: #F7F8F9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5% 0;
+}
+.ulblock{
+    display: flex;
+    gap: 10%;
+    margin-top: 5%;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.openstore{
+    margin-top: 10%;
+    width: 100px;
+    border-bottom: 2px solid #0048ff;
+    color: #0048ff;
+}
+.itemblock{
+    display: flex;
+    padding: 0 13.5%;
+    justify-content: space-between;
+}
+.nowrite{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.itemblock .img{
+    height: 400px;
+}
+.knowmore{
+    margin-top: 10%;
+    width: 115px;
+    border-bottom: 2px solid #0048ff;
+    color: #0048ff;
+}
+.seemore{
+    margin-top: 10%;
+    width: 120px;
+    border-bottom: 2px solid #0048ff;
+    color: #0048ff;
+}
+.shopFunction{
+    margin-top: 10%;
+    width: 145px;
+    border-bottom: 2px solid #0048ff;
+    color: #0048ff;
+}
+.foritem{
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.Functionandservice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Functionandservice .item{
+    width: 30%;
+    text-align: center;
+}
+.Functionandserviceblock{
+    padding: 5% 13.5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: #F7F8F9;
+}
+.Functionandservice .h3{
+    margin: 20px 0;
+}
+.brand{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3% 13.5%;
+    gap: 20px;
+}
+.p-14-2{
+    display: block;
+    width: 150px;
+    margin-top: 2%;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #2c3eff;
+    line-height: 48px;
+    white-space:nowrap;
+    text-align: center;
+    cursor: pointer;
+}
+.asia{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBF1F8;
+    padding: 60px 0;
+}
+.footer1b{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    color: #ffffff;
+}
+.footer2b{
+    display: flex;
+    justify-content: space-between;
+}
+.footer2b .item{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.informationsecurity{
+    padding: 5px 0;
+    display: block;
+    width: 225px;
+    margin-top: 2%;
+    background-color: #E3B54C;
+    white-space:nowrap;
+    text-align: center;
+    cursor: pointer;
+    align-content: flex-end;
+}
+.informationblock{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer3b{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.path{
+    display: flex;
+}
+.path .li{
+    position: relative;
+    padding: 6px 8px;
+    list-style: none;
+}
+.path .a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.path li + li:before{
+    content: '|';
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+}
+.copy{
+    color: #ffffff;
+}
+.footer{
+    padding: 20px 13.5%;
+    background-color: #00142D;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
